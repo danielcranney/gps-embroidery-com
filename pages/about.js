@@ -67,7 +67,12 @@ const About = () => {
           </p>
           <h4 className="spaced-header">Embroidering with GPS</h4>
           <div className="float-right p-4">
-            <Image src={AboutImage} width={600} height={255} />
+            <Image
+              src={AboutImage}
+              width={600}
+              height={255}
+              alt={"An embroidery"}
+            />
           </div>
           <p>
             This performance of writing slows down the process of composing

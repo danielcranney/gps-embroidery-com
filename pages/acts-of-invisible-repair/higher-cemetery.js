@@ -61,16 +61,36 @@ const HigherCemetery = () => {
             </p>
             <div className="flex flex-wrap w-full">
               <div className="w-full p-2 md:w-1/2">
-                <Image src={HigherCemeteryDetail1} width={900} height={582} />
+                <Image
+                  src={HigherCemeteryDetail1}
+                  width={900}
+                  height={582}
+                  alt={"Higher Cemedy close-up"}
+                />
               </div>
               <div className="w-full p-2 md:w-1/2">
-                <Image src={HigherCemeteryDetail2} width={900} height={582} />
+                <Image
+                  src={HigherCemeteryDetail2}
+                  width={900}
+                  height={582}
+                  alt={"Higher Cemedy close-up"}
+                />
               </div>
               <div className="w-full p-2 md:w-1/2">
-                <Image src={HigherCemeteryDetail3} width={900} height={582} />
+                <Image
+                  src={HigherCemeteryDetail3}
+                  width={900}
+                  height={582}
+                  alt={"Higher Cemedy close-up"}
+                />
               </div>
               <div className="w-full p-2 md:w-1/2">
-                <Image src={HigherCemeteryDetail4} width={900} height={582} />
+                <Image
+                  src={HigherCemeteryDetail4}
+                  width={900}
+                  height={582}
+                  alt={"Higher Cemedy close-up"}
+                />
               </div>
             </div>
           </div>

@@ -22,7 +22,12 @@ const Footer = () => {
           <h4>Related links</h4>
           <Link href="https://www.artscouncil.org.uk/">
             <a target="_blank">
-              <Image src={ArtsCouncil} width={300} height={95} />
+              <Image
+                src={ArtsCouncil}
+                width={300}
+                height={95}
+                alt={"Arts Council logo"}
+              />
             </a>
           </Link>
         </div>

@@ -59,7 +59,12 @@ const RiversideValleyPark = () => {
               Humanities Research Council.
             </p>
             <div className="flex flex-wrap w-full">
-              <Image src={RiverValleyDetail} width={1920} height={1333} />
+              <Image
+                src={RiverValleyDetail}
+                width={1920}
+                height={1333}
+                alt={"Riverside Valley Park embroidery close-up"}
+              />
             </div>
           </div>
           <div className="flex-col hidden h-full pl-8 border-l border-gray-200 md:flex md:w-1/4">

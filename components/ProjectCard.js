@@ -33,7 +33,7 @@ const ProjectCard = ({
         <div className="w-1/2 pl-4">
           <Link href={projectLink}>
             <a>
-              <Image src={img} width={width} height={height} />
+              <Image src={img} width={width} height={height} alt={`${title}`} />
             </a>
           </Link>
         </div>

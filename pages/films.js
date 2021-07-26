@@ -31,10 +31,10 @@ const Films = () => {
             src="https://player.vimeo.com/video/265057517"
             width="640"
             height="300"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; 
          fullscreen"
-            allowfullscreen
+            allowFullScreen
             muted
             playsinline
           ></iframe>
