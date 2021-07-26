@@ -1,8 +1,10 @@
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ProjectCard from "/components/ProjectCard.js";
+import ProjectCategoryCard from "../components/ProjectCategoryCard";
 
 // Brexit
 import Blaenavon from "/public/brexit/blaenavon.jpg";
@@ -33,7 +35,31 @@ const Projects = () => {
       </header>
 
       <main className="py-12 bg-gray-100">
-        <div className="container flex flex-col flex-wrap justify-between mx-auto md:flex-row"></div>
+        <div className="container flex flex-col flex-wrap justify-between mx-auto md:flex-row">
+          <ProjectCategoryCard
+            title={"Brexit"}
+            img={Blaenavon}
+            projectLink={`/brexit`}
+            width={1920}
+            height={1286}
+          />
+
+          <ProjectCategoryCard
+            title={"People Who Mother"}
+            img={VictoriaPark}
+            projectLink={`/people-who-mother`}
+            width={1920}
+            height={1286}
+          />
+
+          <ProjectCategoryCard
+            title={"Acts of (in)visible Repair"}
+            img={RiverValley}
+            projectLink={`/acts-of-invisible-repair`}
+            width={1920}
+            height={1286}
+          />
+        </div>
       </main>
 
       <Footer />
