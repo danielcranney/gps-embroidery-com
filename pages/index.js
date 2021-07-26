@@ -19,12 +19,12 @@ export default function Home() {
           className="absolute object-fill w-full h-full"
         >
           <source
-            src="https://www.youtube.com/watch?v=KeVpMIMSdJs"
+            src="https://petermedina.com/video/beach.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
           <source
-            src="https://www.youtube.com/watch?v=KeVpMIMSdJs"
+            src="https://petermedina.com/video/beach.webm"
             type="video/webm"
           />
           Your browser does not support the video tag.
