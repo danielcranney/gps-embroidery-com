@@ -19,7 +19,7 @@ const PeopleProjectPage = ({
       </Head>
 
       <header
-        className={`h-screen w-full flex flex-col pb-8 bg-${bgName} bg-${bgPosition} bg-cover`}
+        className={`h-screen w-full flex flex-col pb-8 ${bgName} ${bgPosition} bg-cover`}
       >
         <div className="pt-8">
           <Header />
