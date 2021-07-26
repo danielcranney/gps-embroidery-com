@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
@@ -10,6 +12,17 @@ module.exports = {
         xl: "5rem",
         "2xl": "6rem",
       },
+    },
+    colors: {
+      transparent: "transparent",
+      black: "#0F0F0F",
+      white: "#fff",
+      brand: "#372b26",
+      // Build your palette here
+      gray: colors.trueGray,
+      red: colors.red,
+      blue: colors.sky,
+      yellow: colors.amber,
     },
     extend: {
       backgroundImage: (theme) => ({

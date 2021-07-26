@@ -14,7 +14,7 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="flex flex-col items-start justify-start w-full pt-10 bg-header-img h-60">
+      <header className="flex flex-col items-start justify-start w-full h-56 pt-10 bg-header-img">
         <Header />
 
         {/* Title */}
@@ -23,7 +23,7 @@ const About = () => {
         </div>
 
         {/* Overlay */}
-        <div className="absolute z-10 w-full -mt-10 opacity-75 bg-gradient-to-t from-black h-60"></div>
+        <div className="absolute z-10 w-full h-56 -mt-10 opacity-75 bg-gradient-to-t from-black"></div>
       </header>
 
       <main className="py-8 bg-gray-100">
@@ -69,7 +69,7 @@ const About = () => {
           <div className="float-right p-4">
             <Image
               src={AboutImage}
-              width={600}
+              width={560}
               height={255}
               alt={"An embroidery"}
             />

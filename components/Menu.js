@@ -24,10 +24,10 @@ export const Menu = () => {
               <Link href="/brexit">
                 <a className="menu-link">Brexit</a>
               </Link>
-              <Link href="/people-who-mother">
+              <Link href="/people-who-mother" className="pt-4">
                 <a className="menu-link">People Who Mother</a>
               </Link>
-              <Link href="/acts-of-invisible-repair">
+              <Link href="/acts-of-invisible-repair" className="pt-4">
                 <a className="menu-link">Acts of (in)visible Repair</a>
               </Link>
             </div>

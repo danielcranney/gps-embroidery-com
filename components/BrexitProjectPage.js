@@ -27,7 +27,7 @@ const BrexitProjectPage = ({
       </header>
 
       <main className={`bg-gray-100 w-full py-16 flex`}>
-        <div className="container flex items-start mx-auto">
+        <div className="container flex-col flex-wrap items-start justify-between mx-auto md:flex-row">
           <div className="flex flex-col w-3/4 pr-8">
             <h1 className="mt-auto mb-6">{title}</h1>
             <h4>{tagline}</h4>

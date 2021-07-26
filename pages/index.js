@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -31,7 +30,7 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
 
-        <div className="flex flex-col items-start justify-start w-full pt-10 bg-header-img h-60">
+        <div className="flex flex-col items-start justify-start w-full h-56 pt-10 bg-header-img">
           <Header />
         </div>
       </header>

@@ -36,7 +36,7 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="flex flex-col items-start justify-start w-full pt-10 bg-header-img h-60">
+      <header className="flex flex-col items-start justify-start w-full h-56 pt-10 bg-header-img">
         <Header />
 
         {/* Title */}
@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
 
         {/* Overlay */}
-        <div className="absolute z-10 w-full -mt-10 opacity-75 bg-gradient-to-t from-black h-60"></div>
+        <div className="absolute z-10 w-full h-56 -mt-10 opacity-75 bg-gradient-to-t from-black"></div>
       </header>
 
       <main className="py-12 bg-gray-100">
@@ -53,8 +53,8 @@ const Contact = () => {
           <div className="flex flex-col w-full mr-8 text-left md:w-2/3">
             {success ? (
               <div className="p-4 mb-8 bg-gray-100 border-2 border-gray-200">
-                Thanks for the message! We'll get back to you as soon as
-                possible (usually within 12 hours!).
+                Thanks for the message! We&apos;ll get back to you as soon as
+                possible.
               </div>
             ) : (
               <></>
@@ -124,7 +124,7 @@ const Contact = () => {
               enquiries about the project please do get in touch with me via the
               contact form.
             </p>
-            <p>
+            <p className="md:mt-12">
               <strong>Email:</strong>{" "}
               <Link href="mailto:lizziephilps@gmail.com">
                 <a>lizziephilps@gmail.com</a>

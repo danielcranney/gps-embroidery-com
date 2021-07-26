@@ -7,7 +7,7 @@
 
 @layer base {
   * {
-    @apply antialiased box-border font-body text-gray-900;
+    @apply antialiased box-border font-body;
   }
   h1,
   h2,
@@ -36,11 +36,11 @@
     @apply text-sm md:text-base lg:text-xl;
   }
   p {
-    @apply text-base text-gray-900 mb-4 leading-relaxed;
+    @apply text-base mb-4 leading-relaxed;
   }
   input,
   textarea {
-    @apply appearance-none w-full bg-white border-gray-200 border p-4 font-light leading-tight focus:outline-none;
+    @apply w-full bg-white border-gray-200 appearance-none border p-4 font-light leading-tight focus:outline-none;
   }
 }
 

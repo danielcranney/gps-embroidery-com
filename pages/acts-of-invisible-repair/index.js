@@ -18,7 +18,7 @@ const Index = () => {
         <title>Acts of(in)visible Repair | GPS Embroidery</title>
       </Head>
 
-      <header className="flex flex-col items-start justify-start w-full pt-10 bg-header-img h-60">
+      <header className="flex flex-col items-start justify-start w-full h-56 pt-10 bg-header-img">
         <Header />
 
         {/* Title */}
@@ -27,7 +27,7 @@ const Index = () => {
         </div>
 
         {/* Overlay */}
-        <div className="absolute z-10 w-full -mt-10 opacity-75 bg-gradient-to-t from-black h-60"></div>
+        <div className="absolute z-10 w-full h-56 -mt-10 opacity-75 bg-gradient-to-t from-black"></div>
       </header>
 
       <main className="flex flex-col py-12 bg-gray-100">

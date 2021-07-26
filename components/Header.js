@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
       {navbarOpen ? (
-        <div className="fixed z-50 w-full h-screen -mt-10 bg-gray-900 bg-opacity-95">
+        <div className="fixed z-50 w-full h-screen -mt-10 bg-brand bg-opacity-95">
           <div className="container relative flex flex-col items-center mx-auto mt-10 text-white bg-transparent">
             <div className="flex w-full">
               <div className="mr-auto">
