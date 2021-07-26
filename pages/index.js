@@ -30,7 +30,7 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
 
-        <div className="flex flex-col items-start justify-start w-full h-56 pt-10 bg-header-img">
+        <div className="flex flex-col items-start justify-start w-full h-56 pt-10">
           <Header />
         </div>
       </header>
