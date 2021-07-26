@@ -1,16 +1,67 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://use.typekit.net/jvi1dsy.css");
+
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased box-border font-body text-gray-900;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight mb-2;
+  }
+  h1 {
+    @apply text-2xl md:text-5xl lg:text-6xl;
+  }
+  h2 {
+    @apply text-2xl md:text-5xl lg:text-5xl;
+  }
+  h3 {
+    @apply text-xl md:text-3xl lg:text-4xl;
+  }
+  h4 {
+    @apply text-lg md:text-2xl lg:text-3xl;
+  }
+  h5 {
+    @apply text-base md:text-xl lg:text-2xl;
+  }
+  h6 {
+    @apply text-sm md:text-base lg:text-xl;
+  }
+  p {
+    @apply text-base text-gray-900 mb-4 leading-relaxed;
+  }
+  input,
+  textarea {
+    @apply appearance-none w-full bg-white border-gray-200 border p-4 font-light leading-tight focus:outline-none;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@layer base {
+  .menu-link {
+    @apply text-white font-semibold opacity-75 hover:opacity-100 transition-all duration-200 shadow-sm;
+  }
 }
 
-* {
-  box-sizing: border-box;
+@layer base {
+  .spaced-header {
+    @apply mb-3 mt-5;
+  }
+}
+
+/* Large Button */
+@layer components {
+  .btn-md {
+    @apply inline-flex h-14 items-center px-8 justify-center
+    text-center
+    font-semibold rounded-md
+    shadow-none;
+  }
 }
