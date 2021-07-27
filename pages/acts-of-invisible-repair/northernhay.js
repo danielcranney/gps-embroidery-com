@@ -5,6 +5,8 @@ import Footer from "/components/Footer";
 import Link from "next/link";
 import ActsOfInvisibleRepairMenu from "../../components/ActsOfInvisibleRepairMenu";
 
+import Northernhay from "/public/acts-of-invisible-repair/northernhay-2.jpg";
+
 const Northernhay = () => {
   return (
     <div>
@@ -33,6 +35,16 @@ const Northernhay = () => {
               to compose these energetic embroideries as they traversed the
               space.
             </p>
+            <div className="flex flex-wrap w-full">
+              <div className="w-full p-2">
+                <Image
+                  src={Northernhay}
+                  width={1920}
+                  height={1248}
+                  alt={"Northernhay embroidery close-up"}
+                />
+              </div>
+            </div>
           </div>
           <div className="flex-col hidden h-full pl-8 border-l border-gray-200 md:flex md:w-1/4">
             <ActsOfInvisibleRepairMenu />

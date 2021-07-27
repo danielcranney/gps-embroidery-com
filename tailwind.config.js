@@ -52,7 +52,7 @@ module.exports = {
         northernhay: "url('/acts-of-invisible-repair/northernhay.jpg')",
         riversideValleyPark:
           "url('/acts-of-invisible-repair/river-valley.jpg')",
-        stThomas: "url('/acts-of-invisible-repair/st-thomas.jpg')",
+        stThomas: "url('/acts-of-invisible-repair/st-thomas-2.jpg')",
         higherCemetery: "url('/acts-of-invisible-repair/higher-cemetery.jpg')",
       }),
       width: {
