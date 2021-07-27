@@ -42,23 +42,7 @@ const HigherCemetery = () => {
               creative practice can have a restorative role for future
               generations.
             </p>
-            <p>
-              This iteration of GPS Embroidery explored the unseen but essential
-              networks within the urban environment of Exeter.
-            </p>
-            <p>
-              We invited women and girls from different parts of the city to
-              help us create GPS embroideries around the concept of repair.
-              Through community mapping “walkshops” and an immersive audio
-              performance, we shared the small but important ways we can enable
-              biodiversity to thrive.
-            </p>
-            <p>
-              This was one of six commissions from“Outside-the- Box”, which
-              explored outdoor performances as a pandemic response. It was
-              supported by Exeter Culture, University of Exeter and the Arts and
-              Humanities Research Council.
-            </p>
+
             <div className="flex flex-wrap w-full">
               <div className="w-full p-2 md:w-1/2">
                 <Image

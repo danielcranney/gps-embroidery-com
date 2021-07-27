@@ -27,14 +27,14 @@ const BrexitProjectPage = ({
       </header>
 
       <main className={`bg-gray-100 w-full py-16 flex`}>
-        <div className="container flex-col flex-wrap items-start justify-between mx-auto md:flex-row">
-          <div className="flex flex-col w-3/4 pr-8">
+        <div className="container flex flex-col flex-wrap items-start justify-between mx-auto md:flex-row">
+          <div className="flex flex-col w-full pr-0 md:pr-8 md:w-3/4">
             <h1 className="mt-auto mb-6">{title}</h1>
             <h4>{tagline}</h4>
             <p>{secondLine}</p>
             <p>{text}</p>
           </div>
-          <div className="flex flex-col w-1/4 pl-8 border-l border-gray-200">
+          <div className="flex flex-col w-full pl-0 border-l-0 border-gray-200 md:w-1/4 md:border-l md:pl-8">
             <h5>More from this project</h5>
             <ul className="list-disc">
               <li className="py-1 ml-4">

@@ -6,7 +6,9 @@ import Link from "next/link";
 import Image from "next/image";
 import ActsOfInvisibleRepairMenu from "../../components/ActsOfInvisibleRepairMenu";
 
-import RiverValleyDetail from "/public/acts-of-invisible-repair/river-valley-2.jpg";
+import RiverValleyDetail from "/public/acts-of-invisible-repair/river-valley.jpg";
+import RiverValleyDetail2 from "/public/acts-of-invisible-repair/river-valley-2.jpg";
+import RiverValleyDetail3 from "/public/acts-of-invisible-repair/river-valley-3.jpg";
 
 const RiversideValleyPark = () => {
   return (
@@ -41,30 +43,32 @@ const RiversideValleyPark = () => {
               instructions for embroidery stitches with snippets of local voices
               that have floated downstream.
             </p>
-            <p>
-              This iteration of GPS Embroidery explored the unseen but essential
-              networks within the urban environment of Exeter.
-            </p>
-            <p>
-              We invited women and girls from different parts of the city to
-              help us create GPS embroideries around the concept of repair.
-              Through community mapping “walkshops” and an immersive audio
-              performance, we shared the small but important ways we can enable
-              biodiversity to thrive.
-            </p>
-            <p>
-              This was one of six commissions from“Outside-the- Box”, which
-              explored outdoor performances as a pandemic response. It was
-              supported by Exeter Culture, University of Exeter and the Arts and
-              Humanities Research Council.
-            </p>
+
             <div className="flex flex-wrap w-full">
-              <Image
-                src={RiverValleyDetail}
-                width={1920}
-                height={1333}
-                alt={"Riverside Valley Park embroidery close-up"}
-              />
+              <div className="w-full p-2 md:w-1/2">
+                <Image
+                  src={RiverValleyDetail}
+                  width={1920}
+                  height={1333}
+                  alt={"Riverside Valley Park embroidery close-up"}
+                />
+              </div>
+              <div className="w-full p-2 md:w-1/2">
+                <Image
+                  src={RiverValleyDetail2}
+                  width={1920}
+                  height={1333}
+                  alt={"Riverside Valley Park embroidery close-up"}
+                />
+              </div>
+              <div className="w-full p-2 md:w-1/2">
+                <Image
+                  src={RiverValleyDetail3}
+                  width={1920}
+                  height={1333}
+                  alt={"Riverside Valley Park embroidery close-up"}
+                />
+              </div>
             </div>
           </div>
           <div className="flex-col hidden h-full pl-8 border-l border-gray-200 md:flex md:w-1/4">

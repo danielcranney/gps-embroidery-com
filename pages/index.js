@@ -11,8 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="w-full h-screen overflow-hidden">
-        <video
+      <header className="w-full h-screen overflow-hidden bg-top bg-cover bg-riversideValleyPark">
+        {/* <video
           autoPlay
           loop
           muted
@@ -28,7 +28,7 @@ export default function Home() {
             type="video/webm"
           />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
 
         <div className="flex flex-col items-start justify-start w-full h-56 pt-10">
           <Header />

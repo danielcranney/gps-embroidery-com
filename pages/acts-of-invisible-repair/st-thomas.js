@@ -6,7 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import ActsOfInvisibleRepairMenu from "../../components/ActsOfInvisibleRepairMenu";
 
-import StThomasDetail from "/public/acts-of-invisible-repair/st-thomas-2.jpg";
+import StThomasDetail from "/public/acts-of-invisible-repair/st-thomas.jpg";
+import StThomasDetail2 from "/public/acts-of-invisible-repair/st-thomas-2.jpg";
 
 const StThomas = () => {
   return (
@@ -38,30 +39,25 @@ const StThomas = () => {
               conservation management, we explored layers of interconnection,
               and how these might be strengthened through simple actions.
             </p>
-            <p>
-              This iteration of GPS Embroidery explored the unseen but essential
-              networks within the urban environment of Exeter.
-            </p>
-            <p>
-              We invited women and girls from different parts of the city to
-              help us create GPS embroideries around the concept of repair.
-              Through community mapping “walkshops” and an immersive audio
-              performance, we shared the small but important ways we can enable
-              biodiversity to thrive.
-            </p>
-            <p>
-              This was one of six commissions from“Outside-the- Box”, which
-              explored outdoor performances as a pandemic response. It was
-              supported by Exeter Culture, University of Exeter and the Arts and
-              Humanities Research Council.
-            </p>
+
             <div className="flex flex-wrap w-full">
-              <Image
-                src={StThomasDetail}
-                width={1920}
-                height={1333}
-                alt={"St Thomas Pleasure embroidery close-up"}
-              />
+              <div className="w-full p-2 md:w-1/2">
+                <Image
+                  src={StThomasDetail}
+                  width={1920}
+                  height={1333}
+                  alt={"St Thomas Pleasure embroidery close-up"}
+                />
+              </div>
+
+              <div className="w-full p-2 md:w-1/2">
+                <Image
+                  src={StThomasDetail2}
+                  width={1920}
+                  height={1333}
+                  alt={"St Thomas Pleasure embroidery close-up"}
+                />
+              </div>
             </div>
           </div>
           <div className="flex-col hidden h-full pl-8 border-l border-gray-200 md:flex md:w-1/4">
