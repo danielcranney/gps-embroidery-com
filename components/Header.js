@@ -21,7 +21,7 @@ const Header = () => {
               </div>
               <button
                 onClick={() => setNavbarOpen(!navbarOpen)}
-                className="z-50 flex h-12 mt-2 ml-auto transition-all duration-200 opacity-75 fill-current md:hidden hover:opacity-100"
+                className="z-50 flex h-12 mt-2 ml-auto text-white transition-all duration-200 opacity-75 fill-current md:hidden hover:opacity-100"
               >
                 <svg
                   className="w-6 h-6 ml-auto text-white fill-current"
