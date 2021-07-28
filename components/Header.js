@@ -26,7 +26,7 @@ const Header = () => {
                 <svg
                   className="w-6 h-6 ml-auto text-white fill-current"
                   fill="none"
-                  stroke="currentColor"
+                  stroke="white"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
