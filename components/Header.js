@@ -41,47 +41,55 @@ const Header = () => {
               </button>
             </div>
             <nav className="w-full mt-10">
-              <ul className="flex flex-col items-start">
-                <li className="self-stretch h-12 mr-6">
+              <ul className="flex flex-col items-stretch">
+                <li className="h-12">
                   <Link href="/">
-                    <a className="menu-link">Home</a>
+                    <a className="self-stretch block w-full menu-link">Home</a>
                   </Link>
                 </li>
-                <li className="self-stretch h-12 mr-6">
-                  <Link href="/about">
-                    <a className="menu-link">About</a>
+                <li className="h-12">
+                  <Link href="/about" className="self-stretch w-full">
+                    <a className="self-stretch block w-full menu-link">About</a>
                   </Link>
                 </li>
-                <li className="self-stretch h-12 mr-6">
+                <li className="h-12">
                   <Link href="/projects">
-                    <a className="menu-link">Projects</a>
+                    <a className="self-stretch block w-full menu-link">
+                      Projects
+                    </a>
                   </Link>
                 </li>
-                <li className="self-stretch h-12 mr-6">
+                <li className="h-12">
                   <Link href="/brexit">
-                    <a className="ml-3 menu-link">- Brexit</a>
+                    <a className="self-stretch block w-full ml-3 menu-link">
+                      - Brexit
+                    </a>
                   </Link>
                 </li>
-                <li className="self-stretch h-12 mr-6">
+                <li className="h-12">
                   <Link href="/people-who-mother">
-                    <a className="ml-3 menu-link">- People Who Mother</a>
+                    <a className="self-stretch block w-full ml-3 menu-link">
+                      - People Who Mother
+                    </a>
                   </Link>
                 </li>
-                <li className="self-stretch h-12 mr-6">
+                <li className="h-12">
                   <Link href="/acts-of-invisible-repair">
-                    <a className="ml-3 menu-link">
+                    <a className="self-stretch block w-full ml-3 menu-link">
                       - Acts of (in)visible Repair
                     </a>
                   </Link>
                 </li>
-                <li className="self-stretch h-12 mr-6">
+                <li className="h-12">
                   <Link href="/films">
-                    <a className="menu-link">Films</a>
+                    <a className="self-stretch block w-full menu-link">Films</a>
                   </Link>
                 </li>
-                <li className="self-stretch h-12 mr-6">
+                <li className="h-12">
                   <Link href="/contact">
-                    <a className="menu-link">Contact</a>
+                    <a className="self-stretch block w-full menu-link">
+                      Contact
+                    </a>
                   </Link>
                 </li>
               </ul>
