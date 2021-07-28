@@ -5,7 +5,7 @@ import Footer from "/components/Footer";
 import Link from "next/link";
 import ActsOfInvisibleRepairMenu from "../../components/ActsOfInvisibleRepairMenu";
 
-import Northernhay from "/public/acts-of-invisible-repair/northernhay-2.jpg";
+import Northernhay2 from "/public/acts-of-invisible-repair/northernhay-2.jpg";
 
 const Northernhay = () => {
   return (
@@ -38,7 +38,7 @@ const Northernhay = () => {
             <div className="flex flex-wrap w-full">
               <div className="w-full p-2">
                 <Image
-                  src={Northernhay}
+                  src={Northernhay2}
                   width={1920}
                   height={1248}
                   alt={"Northernhay embroidery close-up"}
