@@ -6,13 +6,8 @@ import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const Contact = () => {
-  const nameElement = useRef();
-  const emailElement = useRef();
-  const messageElement = useRef();
-
-  const [status, setStatus] = useState("Submit");
-  const [success, setSuccess] = useState(null);
+const ContactSuccess = () => {
+  const [success, setSuccess] = useState(true);
 
   return (
     <>
@@ -86,4 +81,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactSuccess;
