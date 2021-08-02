@@ -28,7 +28,7 @@ export const Menu = () => {
                 <a className="menu-link">People Who Mother</a>
               </Link>
               <Link href="/acts-of-invisible-repair" className="pt-4">
-                <a className="menu-link">Acts of (in)visible Repair</a>
+                <a className="menu-link">Acts of (In) visible Repair</a>
               </Link>
             </div>
           </div>

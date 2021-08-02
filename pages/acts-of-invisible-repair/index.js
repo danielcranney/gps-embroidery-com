@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Acts of(in)visible Repair | GPS Embroidery</title>
+        <title>Acts of (In) visible Repair | GPS Embroidery</title>
       </Head>
 
       <header className="flex flex-col items-start justify-start w-full h-56 pt-10 bg-header-img">
@@ -23,7 +23,7 @@ const Index = () => {
 
         {/* Title */}
         <div className="container z-20 mx-auto">
-          <h2 className="mt-6 text-white">Acts of(in)visible Repair</h2>
+          <h2 className="mt-6 text-white">Acts of (In) visible Repair</h2>
         </div>
 
         {/* Overlay */}
@@ -31,7 +31,7 @@ const Index = () => {
       </header>
 
       <main className="flex flex-col py-12 bg-gray-100">
-        <div className="container pb-12 mx-auto mb-12 border-b border-gray-200">
+        <div className="container pb-12 mx-auto">
           <p>
             This iteration of GPS Embroidery explored the unseen but essential
             networks within the urban environment of Exeter. We invited women
@@ -48,6 +48,11 @@ const Index = () => {
           <p className="pb-0 mb-0">
             It was supported by Exeter Culture, University of Exeter and the
             Arts and Humanities Research Council.
+          </p>
+          <p>
+            The creative team for this project were Lizzie Philps, Frances
+            Merriman and Anna Haydock Wilson. Local production was provided by
+            Lizzy Humber, and media support by Niamh McCarthy
           </p>
         </div>
         <div className="container flex flex-wrap justify-between mx-auto">
