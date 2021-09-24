@@ -38,6 +38,8 @@ module.exports = {
         lowerSlaughter: "url('/brexit/lower-slaughter.jpg')",
         plymouthHoe: "url('/brexit/plymouth-hoe.jpg')",
         whiteCliffsOfDover: "url('/brexit/white-cliffs-of-dover.jpg')",
+        barnardCastle: "url('/brexit/barnard-castle.jpg')",
+        ilkleyMoor: "url('/brexit/ilkley-moor.jpg')",
         // People Who Mother BGs
         ashtonCourt: "url('/people-who-mother/ashton-court.jpg')",
         camPeakView: "url('/people-who-mother/cam-peak-view.jpg')",
@@ -48,6 +50,7 @@ module.exports = {
         uphillBeach: "url('/people-who-mother/uphill-beach.jpg')",
         victoriaPark: "url('/people-who-mother/victoria-park.jpg')",
         whaleWharf: "url('/people-who-mother/whale-wharf.jpg')",
+        cheddarGorge: "url('/people-who-mother/cheddar-gorge.jpg')",
         // Acts of Invisible Repair BGs
         northernhay: "url('/acts-of-invisible-repair/northernhay.jpg')",
         riversideValleyPark:
@@ -71,5 +74,5 @@ module.exports = {
       display: ["responsive", "group-hover", "group-focus"],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };

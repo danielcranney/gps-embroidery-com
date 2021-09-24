@@ -31,7 +31,7 @@ const BrexitProjectPage = ({
           <div className="flex flex-col w-full pr-0 md:pr-8 md:w-3/4">
             <h1 className="mt-auto mb-6">{title}</h1>
             <h4>{tagline}</h4>
-            <p>{secondLine}</p>
+            <p className="mt-4">{secondLine}</p>
             <p>{text}</p>
           </div>
           <div className="flex flex-col w-full pl-0 border-l-0 border-gray-200 md:w-1/4 md:border-l md:pl-8">
@@ -113,6 +113,22 @@ const BrexitProjectPage = ({
                 <Link href="alexandra-park">
                   <a className="transition-all duration-200 opacity-50 hover:opacity-100">
                     Alexandra Park, Belfast
+                  </a>
+                </Link>
+              </li>
+
+              <li className="py-1 ml-4">
+                <Link href="barnard-castle">
+                  <a className="transition-all duration-200 opacity-50 hover:opacity-100">
+                    Barnard Castle
+                  </a>
+                </Link>
+              </li>
+
+              <li className="py-1 ml-4">
+                <Link href="ilkley-moor">
+                  <a className="transition-all duration-200 opacity-50 hover:opacity-100">
+                    Ilkley Moor, overlooking Bradford
                   </a>
                 </Link>
               </li>

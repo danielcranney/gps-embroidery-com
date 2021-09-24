@@ -15,6 +15,7 @@ import GroznezPoint from "/public/people-who-mother/groznez-point.jpg";
 import LaRocque from "/public/people-who-mother/la-rocque.jpg";
 import UphillBeach from "/public/people-who-mother/uphill-beach.jpg";
 import LondonSuburbs from "/public/people-who-mother/london-suburbs.jpg";
+import CheddarGorge from "/public/people-who-mother/cheddar-gorge.jpg";
 
 const Index = () => {
   return (
@@ -127,6 +128,16 @@ const Index = () => {
             description={`Sarah and I met on the LADA DIY residency I ran in Jersey, but she took a GPS tracker back to London to embroider some more. She described this sentence as…`}
             img={LondonSuburbs}
             projectLink={`/people-who-mother/london-suburbs`}
+            width={1920}
+            height={1285}
+          />
+
+          <ProjectCard
+            title={"Cheddar Gorge, Somerset"}
+            tagline={"Armenian girls do it closer to home (Silva Semerciyan)"}
+            description={`I wrote this with Armenian American playwright Silva Semerciyan in April 2021, as we came out of lockdown. Our conversations meandered...`}
+            img={CheddarGorge}
+            projectLink={`/people-who-mother/cheddar-gorge`}
             width={1920}
             height={1285}
           />

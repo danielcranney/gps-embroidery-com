@@ -7,6 +7,7 @@ const WhiteCliffs = () => {
       <BrexitProjectPage
         title={`White Cliffs of Dover`}
         bgName={`bg-whiteCliffsOfDover`}
+        bgPosition={"bg-center"}
         tagline={`
 White Cliffs of Dover
 (A traveller) weary toil subdued, I reached a country strange and rude (Matilda Betton)`}

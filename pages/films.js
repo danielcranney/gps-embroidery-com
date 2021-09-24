@@ -26,18 +26,36 @@ const Films = () => {
       </header>
 
       <main className="py-12 bg-gray-100">
-        <div className="container flex mx-auto">
-          <iframe
-            src="https://player.vimeo.com/video/265057517"
-            width="640"
-            height="300"
-            frameBorder="0"
-            allow="autoplay; 
-         fullscreen"
-            allowFullScreen
-            muted
-            playsinline
-          ></iframe>
+        <div className="container flex flex-col mx-auto">
+          <div className="w-full h-auto mb-2 aspect-w-16 aspect-h-7">
+            <iframe
+              src={`https://player.vimeo.com/video/265057517`}
+              frameBorder="0"
+              width={"100%"}
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          <div className="w-full h-auto mb-4 aspect-w-16 aspect-h-9">
+            <iframe
+              src={`https://player.vimeo.com/video/610975822`}
+              frameBorder="0"
+              width={"100%"}
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          <div className="w-full h-auto aspect-w-16 aspect-h-9">
+            <iframe
+              src={`https://player.vimeo.com/video/250873341`}
+              frameBorder="0"
+              width={"100%"}
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </main>
 

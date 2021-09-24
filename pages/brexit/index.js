@@ -16,6 +16,8 @@ import LowerSlaughter from "/public/brexit/lower-slaughter.jpg";
 import PlymouthHoe from "/public/brexit/plymouth-hoe.jpg";
 import Stonehenge from "/public/brexit/stonehenge.jpg";
 import WhiteCliffs from "/public/brexit/white-cliffs-of-dover.jpg";
+import BarnardCastle from "/public/brexit/barnard-castle.jpg";
+import IlkleyMoor from "/public/brexit/ilkley-moor.jpg";
 
 const Index = () => {
   return (
@@ -152,6 +154,30 @@ const Index = () => {
             description={`Alexandra park is cut in half by a “peace wall”, the gate to which is closed every night. Starting on one side and ending on the other, I embroidered this the day Trump…`}
             img={AlexandraPark}
             projectLink={`/brexit/alexandra-park`}
+            width={1920}
+            height={1285}
+          />
+
+          <ProjectCard
+            title={"Barnard Castle, County Durham"}
+            tagline={
+              "The fiend of discord sits in savage triumph (mocking every plea of policy and justice). (Charlotte Smith)"
+            }
+            description={`In summer 2020, having checked my eyesight, I made a trip to Barnard Castle. The newspaper headlines were full of political infighting, the town was busy...`}
+            img={BarnardCastle}
+            projectLink={`/brexit/barnard-castle`}
+            width={1920}
+            height={1285}
+          />
+
+          <ProjectCard
+            title={"Ilkley Moor"}
+            tagline={
+              "It is impossible to degrade our companion without degrading our self (Lucy Aitken)"
+            }
+            description={`“On Ilkley Moor bah tat” means “On Ilkley Moor without a hat”. Whenever I’ve heard the song it’s sung as a stereotype of the Stoic Northerner...`}
+            img={IlkleyMoor}
+            projectLink={`/brexit/ilkley-moor`}
             width={1920}
             height={1285}
           />

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
     "jotform-react": "^1.0.4",
     "next": "11.0.1",
     "react": "17.0.2",
