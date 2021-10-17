@@ -14,16 +14,13 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="flex flex-col items-start justify-start w-full h-56 pt-10 bg-header-img">
+      <header className="flex flex-col items-start justify-start w-full pt-10 pb-12 min-h-56 bg-header-img">
         <Header />
 
         {/* Title */}
         <div className="container z-20 mx-auto">
-          <h2 className="mt-6 text-white">About GPS Embroidery</h2>
+          <h2 className="w-1/2 mt-6 text-white">About GPS Embroidery</h2>
         </div>
-
-        {/* Overlay */}
-        <div className="absolute z-10 w-full h-56 -mt-10 opacity-75 bg-gradient-to-t from-black"></div>
       </header>
 
       <main className="py-8 bg-gray-100">

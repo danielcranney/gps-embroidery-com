@@ -46,7 +46,7 @@
 
 @layer base {
   .menu-link {
-    @apply text-white font-semibold opacity-75 hover:opacity-100 transition-all duration-200 shadow-sm;
+    @apply text-white font-semibold opacity-80 hover:opacity-100 transition-all duration-200 h-full;
   }
 }
 
